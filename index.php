@@ -62,6 +62,7 @@ function writeData() {
     header("Location: $redirect_url");
     exit;
 }
+//sample comment
 
 if ($_SERVER["REQUEST_METHOD"] === "POST") {
     writeData();
